@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { obtenerProductosById } from '../services/productosServices'
+import Count from "../components/Count"
 
 export default function DetailView (props) {
   //console.log("detalle",props)
   const productoId = props.match.params.id
   //console.log("detalle", producutoId)
 
-  const [miProducto, setMiProducto] = useState({})
+  const [miProducto, setMiProducto] = useState({});
+  const [cantidad, setCantidad]=useState(1);
 
   const getProduct = async () => {
     let productoObtenido = await obtenerProductosById(productoId)
@@ -29,7 +31,8 @@ export default function DetailView (props) {
           <h2>Precio: {miProducto.productoPrecio}</h2>
           <h4>Descripcion:</h4>
           <p>{miProducto.productoDescripcion}</p>
-          <button className="btn btn-primary btn-block">Agregar al carrito</button>
+          <Count cantidadProductos={cantidad} actualizarCantidad={setCantidad}/>
+          <button className="btn btn-primary btn-sm mt-2">Agregar al carrito</button>
         </div>
       </div>
     </div>
