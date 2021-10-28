@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontlogistica/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/frontlogistica/static/js/main.66aaa00e.chunk.js",
-    "main.js.map": "/frontlogistica/static/js/main.66aaa00e.chunk.js.map",
+    "main.js": "/frontlogistica/static/js/main.91e4518f.chunk.js",
+    "main.js.map": "/frontlogistica/static/js/main.91e4518f.chunk.js.map",
     "runtime-main.js": "/frontlogistica/static/js/runtime-main.6be773ca.js",
     "runtime-main.js.map": "/frontlogistica/static/js/runtime-main.6be773ca.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/frontlogistica/static/css/2.d8cb5cde.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.d4dd2f23.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.66aaa00e.chunk.js"
+    "static/js/main.91e4518f.chunk.js"
   ]
 }
