@@ -1,0 +1,2 @@
+(this.webpackJsonpfrontlogistica=this.webpackJsonpfrontlogistica||[]).push([[0],{11:function(t,n,e){"use strict";e.r(n);var c=e(0),r=e.n(c),i=e(3),o=e.n(i),s=(e(8),e(9),e(1));function a(){return Object(s.jsx)("div",{children:"Dharry"})}o.a.render(Object(s.jsx)(r.a.StrictMode,{children:Object(s.jsx)(a,{})}),document.getElementById("root"))},8:function(t,n,e){}},[[11,1,2]]]);
+//# sourceMappingURL=main.3d2744b5.chunk.js.map
